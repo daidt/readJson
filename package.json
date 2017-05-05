@@ -1,0 +1,19 @@
+[
+  {
+  "maHocPhan": "IT1010",
+  "tenHocPhan": "Tin học đại cương",
+  "thoiLuong": "3(3-1-1-6)",
+  "soTinChi": 3,
+  "tinChiHocPhi": 5.5,
+  "trongSo": 0.6
+  },
+  {
+  "maHocPhan":"IT1020",
+  "tenHocPhan": "Tin học đại cương",
+  "thoiLuong": "3(3-1-1-6)",
+  "soTinChi": 3,
+  "tinChiHocPhi": 5.5,
+  "trongSo": 0.6
+  }
+]
+

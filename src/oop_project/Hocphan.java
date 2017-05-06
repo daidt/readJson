@@ -3,6 +3,11 @@ package oop_project;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import com.google.gson.stream.JsonWriter;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.List;
 
 public class Hocphan {
 
@@ -72,12 +77,14 @@ public class Hocphan {
     public void setTrongSo(Double trongSo) {
         this.trongSo = trongSo;
     }
-    public void display(){
-        System.out.println("\"MaHocPhan\" :" +this.getMaHocPhan());
-        System.out.println("\"TenHocPhan\" : " +this.getTenHocPhan());
-        System.out.println("\"ThoiLuong\" : " +this.getThoiLuong());
-        System.out.println("\"SoTinChi\" : " +this.getSoTinChi());
-        System.out.println("\"TinChiHocPhi\" : " +this.getTinChiHocPhi());
-        System.out.println("\"TrongSo\" : " +this.getTrongSo());
+
+    public void display() {
+        System.out.println("\"MaHocPhan\" :" + this.getMaHocPhan());
+        System.out.println("\"TenHocPhan\" : " + this.getTenHocPhan());
+        System.out.println("\"ThoiLuong\" : " + this.getThoiLuong());
+        System.out.println("\"SoTinChi\" : " + this.getSoTinChi());
+        System.out.println("\"TinChiHocPhi\" : " + this.getTinChiHocPhi());
+        System.out.println("\"TrongSo\" : " + this.getTrongSo());
     }
+
 }
